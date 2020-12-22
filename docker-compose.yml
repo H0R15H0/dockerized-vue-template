@@ -3,7 +3,7 @@ version: '2'
 services:
   app:
     build: .
-    command: "yarn serve"
+    command: npm run serve
     volumes:
       - .:/app
     ports:
