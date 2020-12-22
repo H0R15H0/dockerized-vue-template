@@ -8,7 +8,9 @@ docker-compose
 ``` bash
 $ git clone git@github.com:H0R15H0/dockerized-vue-template.git REPONAME
 $ cd REPONAME
-$ docker-compose up --build
+$ docker-compose build
+$ docker-compose run app npm install
+$ docker-compose up
 ```
 
 # Open
