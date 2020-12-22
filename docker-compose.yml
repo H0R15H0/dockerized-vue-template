@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    command: "yarn serve"
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
+    tty: true
+    stdin_open: true
