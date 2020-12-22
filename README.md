@@ -1,24 +1,21 @@
-# 
+# README
 
-## Project setup
-```
-yarn install
-```
+# Requirement
+Docker
+docker-compose
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+# Usage
+``` bash
+$ git clone git@github.com:H0R15H0/dockerized-vue-template.git REPONAME
+$ cd REPONAME
+$ docker-compose up --build
 ```
 
-### Lints and fixes files
+# Open
 ```
-yarn lint
+localhost:8080/
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Change remote repository
+```
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
