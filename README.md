@@ -1,5 +1,6 @@
 # README
-
+vuetify
+vue-router
 # Requirement
 Docker
 docker-compose
